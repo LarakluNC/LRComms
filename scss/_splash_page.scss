@@ -1,0 +1,144 @@
+
+.holding-page {
+	width:100vw;
+	min-height:100vh;
+	background-color: $background-color;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+
+	@keyframes fadein {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+
+
+	.holding-page-container {
+		width:$bodySize;
+		margin:auto;
+
+		@media(min-width:$desktop) {
+			max-width:$max-bodySize;
+		}
+
+		svg {
+			margin:auto;
+			display:block;
+			width:100%;
+			position: relative;
+			animation: fadein 3s;
+		}
+
+	
+		.svg-container {
+			padding:21vw 0;
+			margin:auto;
+			display:block;
+			width:42vw;
+
+			@media(min-width:$desktop) {
+				padding:0;
+				padding-bottom:70px;
+				margin-top: calc(50vh - 236px);
+				width:231px;
+			}
+		}
+		h1, h2, h3 , a {
+			font-family:$largeFonts;
+			color:$largeFontsColour;
+			text-align:center;
+			margin: auto;
+		}
+		h1 {
+			font-size:$h1Size;
+			margin-bottom:$edgeing;
+			animation: fadein 4s;
+
+			@media(min-width:$desktop) {
+				margin-bottom:$edgeingMOB;
+			}
+		}
+
+
+		p {
+			font-family:$smallFonts;
+			font-size:$pSize;
+			text-align:center;
+			margin: auto;
+			color:$smallFontsColour;
+			line-height: 0.9rem;
+			font-weight:300;
+			animation: fadein 5s;
+
+			@media(min-width:$desktop) {
+				padding-bottom:$halfEdgeingMOB;
+			}
+		}
+		h2 { 
+			a {	
+				font-size:$h2Size;
+				text-decoration: none;
+			}
+			a:hover {
+				color:#fff;
+			}
+			margin-top: $edgeing;
+			font-size:$h2Size;
+			line-height: $h2LineHeight;
+			animation: fadein 7s;
+
+			@media(min-width:$desktop) {
+				margin-top:$edgeingMOB;
+			}
+		
+		}
+		.Two {
+			margin-top: 0;
+		}
+		h3 {
+			margin: $halfEdgeing 0;
+			color:$smallFontsColour;
+			font-size:$h2Size;
+			animation: fadein 10s;
+
+			@media(min-width:$desktop) {
+				margin:$halfEdgeingMOB;
+			}
+		}	
+		.socials {
+			margin-bottom: $halfEdgeing;
+			color:$smallFontsColour;
+			font-size:$aSize;
+			animation: fadein 14s;
+
+			a {
+				color:$smallFontsColour;
+				text-decoration: none;	
+				cursor: pointer;
+				font-size:$aSize;
+				font-family:$smallFonts;
+			}
+			a::after, a::before {
+				content:" ";
+			}
+			a:hover {
+				color:$largeFontsColour;
+				text-decoration: underline;	
+
+			}
+		}
+	}	
+
+	@keyframes fadein {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+}

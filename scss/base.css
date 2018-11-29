@@ -1,0 +1,133 @@
+@import url("https://p.typekit.net/p.css?s=1&k=yss3snt&ht=tk&f=10881&a=4744220&app=typekit&e=css");
+@font-face {
+  font-family: "futura-pt";
+  src: url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 700; }
+.tk-futura-pt {
+  font-family: "futura-pt",sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+* {
+  font-size: 22px;
+  text-align: center; }
+
+.holding-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #263031;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .holding-page .holding-page-container {
+    width: 80vw;
+    margin: auto; }
+    @media (min-width: 700px) {
+      .holding-page .holding-page-container {
+        max-width: 500px; } }
+    .holding-page .holding-page-container svg {
+      margin: auto;
+      display: block;
+      width: 100%;
+      position: relative;
+      -webkit-animation: fadein 3s;
+              animation: fadein 3s; }
+    .holding-page .holding-page-container .svg-container {
+      padding: 21vw 0;
+      margin: auto;
+      display: block;
+      width: 42vw; }
+      @media (min-width: 700px) {
+        .holding-page .holding-page-container .svg-container {
+          padding: 0;
+          padding-bottom: 70px;
+          margin-top: calc(50vh - 236px);
+          width: 231px; } }
+    .holding-page .holding-page-container h1, .holding-page .holding-page-container h2, .holding-page .holding-page-container h3, .holding-page .holding-page-container a {
+      font-family: "futura-pt", sans-serif;
+      color: #22818D;
+      text-align: center;
+      margin: auto; }
+    .holding-page .holding-page-container h1 {
+      font-size: 1.2rem;
+      margin-bottom: 10vw;
+      -webkit-animation: fadein 4s;
+              animation: fadein 4s; }
+      @media (min-width: 700px) {
+        .holding-page .holding-page-container h1 {
+          margin-bottom: 35px; } }
+    .holding-page .holding-page-container p {
+      font-family: "Roboto", sans-serif;
+      font-size: 0.65rem;
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      line-height: 0.9rem;
+      font-weight: 300;
+      -webkit-animation: fadein 5s;
+              animation: fadein 5s; }
+      @media (min-width: 700px) {
+        .holding-page .holding-page-container p {
+          padding-bottom: 20px; } }
+    .holding-page .holding-page-container h2 {
+      margin-top: 10vw;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      -webkit-animation: fadein 7s;
+              animation: fadein 7s; }
+      .holding-page .holding-page-container h2 a {
+        font-size: 0.75rem;
+        text-decoration: none; }
+      .holding-page .holding-page-container h2 a:hover {
+        color: #fff; }
+      @media (min-width: 700px) {
+        .holding-page .holding-page-container h2 {
+          margin-top: 35px; } }
+    .holding-page .holding-page-container .Two {
+      margin-top: 0; }
+    .holding-page .holding-page-container h3 {
+      margin: 5vw 0;
+      color: #fff;
+      font-size: 0.75rem;
+      -webkit-animation: fadein 10s;
+              animation: fadein 10s; }
+      @media (min-width: 700px) {
+        .holding-page .holding-page-container h3 {
+          margin: 20px; } }
+    .holding-page .holding-page-container .socials {
+      margin-bottom: 5vw;
+      color: #fff;
+      font-size: 0.6rem;
+      -webkit-animation: fadein 14s;
+              animation: fadein 14s; }
+      .holding-page .holding-page-container .socials a {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 0.6rem;
+        font-family: "Roboto", sans-serif; }
+      .holding-page .holding-page-container .socials a::after, .holding-page .holding-page-container .socials a::before {
+        content: " "; }
+      .holding-page .holding-page-container .socials a:hover {
+        color: #22818D;
+        text-decoration: underline; }
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=base.css.map */
